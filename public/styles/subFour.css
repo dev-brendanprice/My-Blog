@@ -1,0 +1,17 @@
+#subTitleContent {
+	position: relative;
+	top: 3px;
+	font-size: 16px;
+	margin: auto;
+	width: 85%;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.grid {
+	display: flex;
+}
+
+#fileStatWC {
+	display: inline-block;
+	margin-left: 7px;
+}

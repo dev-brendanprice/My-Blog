@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="../styles/style.css">
+	<link rel="stylesheet" type="text/css" href="../styles/subFour.css">
+	<link rel="stylesheet" type="text/css" href="../styles/queries.css">
+
+	<title>Sub4</title>
+</head>
+
+<body>
+	<div id="mainContainer">
+
+		<div id="titleContainer">
+			<img id="pfp" src="../media/pfp.png" onclick="ToGit()"><span><div id="nameTitle" onclick="ToGit()">brendanprice2003</div></span>
+		</div>
+
+		<div class="grid">
+
+			<!-- column one -->
+			<div id="column1">
+
+				<!-- row one -->
+				<div id="row1">
+
+					<div id="itemOne">
+						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Assignment 2</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">Preference of Website Technologies</span></div>
+					</div>
+					<div id="itemFiveSub">
+						<div id="subTitleContent">
+							<h1>
+								Preference of Website Technologies
+							</h1>
+							<hr class="half">
+							<h3>
+								Justification of Website Creation Technologies
+							</h3>
+							<p>
+								Every developer has their strengths when it comes to programming and web development, that is why I have curated a list of my preferences for tools and techniques that are commonly utilized within web development and programming alike. Along with each prefered tool and/or technique I will provide a jusification for this preference.
+							</p>
+							<h3>
+								Tools and Software
+							</h3>
+							<em>
+								Below is a list of programming languages (or markdown languages) that I prefer to utilize. Note: React.js is a JavaScript framework that allows for a dynamic development environment.
+							</em>
+							<ul>
+								<li>
+									HTML, CSS
+								</li>
+								<li>
+									JavaScript
+								</li>
+								<li>
+									React.js
+								</li>
+								<li>
+									Scss/Sass
+								</li>
+							</ul>
+							<h5>
+								Justification
+							</h5>
+							<p>
+								HTML,CSS and JavaScript all go hand-in-hand and is the simplest form of web development tool (for myself), consists of all required functionalities for adequate user experiences, whilst not overcomplicating concepts. Finding a suitable platform build your website on is key and this is why I prefer to use HTML,CSS and JavaScript for web development.
+							</p>
+							<p>
+								React.js and Scss/Sass take what is already good about CSS and JavaScript and add even more functionality to it. This extra functionality may be key for the web application to achieve a certain degree of user experience etc. React.js allows JavaScript to interface with more points of entry within the browser and appends more functionality onto the codebase, which means React.js may be able to execute instructions that would otherwise seem "complex" or "very inefficient" inside of JavaScript.
+							</p>
+							<em>
+								Scss/Sass had already been explained in the previous section. Below is a list of software(s) that I commonly utilize.
+							</em>
+							<ul>
+								<li>
+									IDE; Visual Studio Code
+								</li>
+								<li>
+									Chrome & Chrome DevTools
+								</li>
+								<li>
+									XAMPP
+								</li>
+								<li>
+									GitHub
+								</li>
+							</ul>
+							<h5>
+								Justification
+							</h5>
+							<p>
+								Programming languages have many working parts, which are hard to distinguish without the help of an IDE. In laymans terms; an IDE provides a platform that can be utilized to view files, which it will then apply stlyes to the content of that file. These styles express what the content, that is being styled, represents. Please look below for an example of code inside of Visual Studio Code, notice how certain words are highlighted with color and text styles such as indentations are applied. They are applied for a purpose, for user readability. 
+							</p>
+							<a href="../media/carbon.png" target="_blank">
+								<img id="exampleImg" src="../media/carbon.png"/>
+								<figcaption><em>Click image to open in new tab.</em></figcaption>
+							</a>
+							<p>
+								Chrome and Chrome DevTools are the only form of output that you have when debugging on the client, Fortunatley the DevTools environment is very well developed and has many features that serve to be extremely useful and effective. DevTools allows you to see console output, network communications from the client, website sources, debugging functionalities, locally stored browser data, peformance of specified code blocks, and much more.
+							</p>
+							<p>
+								I use XAMPP to simulate a server environment where web files would be hosted, which then anyone can view from anywehere in the world. This is useful because it simulate the "real thing", the actual environment that your website files will reside in once you actually push your website to a web server. Additionaly, you are able to use XAMPP to host web files so that other users can develop on the same files simultaneously. XAMPP is an excellent tool to use for web development.
+							</p>
+							<p>
+								GitHub is an embodiment of Push and Pull architectures, where you (the developer) will push your code changes to a remote server which then saves that response for the next developer that comes along. This next developer can then request the latest version of the file and then push changes when finished. Utlizing this architecture for web development enables multiple developers to develop the same website simultaneously.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- second column -->
+			<div id="column2">
+				
+				<!-- row one -->
+				<div id="quickRow1">
+					
+					<div id="quickItemOne">
+						<div id="quickTitleContent">
+							About
+						</div>
+					</div>
+					<div id="quickItemTwo">
+						<div id="quickSubTitleContent">
+							No description provided.
+						</div>
+					</div>
+					<div id="quickItemThree">
+						<div id="quickSubTitleContentTwo">
+							<div id="statOne">
+								<img id="pkg" src="../media/loc.png"><div id="fileStatWC">Word Count: 0</div>
+							</div>
+							<div id="statTwo">
+								<img id="pkg" src="../media/pkg.svg"><div id="fileStatDeps">Dependencies: 5</div>
+							</div>
+							<div id="statThree">
+								<img id="time" src="../media/time.svg"><div id="fileStat">Start Date: 23/01/2022</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- row two -->
+		<div id="row2">
+
+			<div id="itemSix">
+				<div class="itemSixTitleContent">
+					This website has been pushed to a GitHub repository. README.md is also available.
+				</div>
+				<div class="itemSixTitleContentMediaQuery">
+					This website has been pushed to a GitHub repository.
+				</div>
+				<button id="buttonViewCode" href="" onclick="ToGit()"><span id="buttonViewCodeText">View Code</span></button>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="../scripts/script.js"></script>
+<script src="../scripts/queries.js"></script>
+</html>

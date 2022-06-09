@@ -1,0 +1,32 @@
+
+
+/* Queries from highest to smallest screen sizes, going from top to bottom of this script */
+
+@media only screen and (max-width: 1075px) {
+    .itemSixTitleContent {
+        display: none;
+    }
+    .itemSixTitleContentMediaQuery {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1020px) {
+    .grid {
+        display: initial;
+    }
+    #column1 {
+        width: unset;
+    }
+    #column2 {
+        margin-top: 20px;
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    /* Entirely seperate layout */
+    #mainContainer {
+        width: 98vw;
+        margin-right: 10px;
+    }
+}   

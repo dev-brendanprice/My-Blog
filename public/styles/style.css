@@ -1,0 +1,491 @@
+body, html {
+	background-color: #22272e;
+	margin: auto;
+	overflow: overlay;
+
+	-webkit-user-select: none; /* Safari */        
+	-moz-user-select: none; /* Firefox */
+	-ms-user-select: none; /* IE10+/Edge */
+	user-select: none; /* Standard */
+}
+
+hr.half {
+	float: left;
+	margin-top: -15px;
+	width: 100%;
+	padding: none;
+	border: none;
+	height: 2px;
+	border-radius: 2px;
+	background-color: #7e8891;
+}
+
+h1 {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    font-size: 2em;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+    font-weight: bold;
+	color: #7e8891;
+}
+
+h2 {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+    font-weight: bold;
+	color: #7e8891;
+}
+
+h3 {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+    font-weight: bold;
+	color: #7e8891;
+}
+
+h4 {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+    font-weight: bold;
+	color: #7e8891;
+}
+
+h5 {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+    font-weight: bold;
+	color: #7e8891;
+}
+
+p {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+	color: #7e8891;
+	text-align: justify;
+}
+
+li {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+	color: #7e8891;
+	text-align: justify;
+}
+
+em {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: block;
+    margin-block-start: 0.9em;
+    margin-block-end: 0.9em;
+	color: #7e8891;
+	text-align: justify;
+}
+
+#exampleImg {
+	display: block;
+	width: 45%;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#code {
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	display: inline;
+	font-style: italic;
+	color: #7e8891;
+}
+
+#mainContainer {
+	margin: auto;
+	margin-top: 50px;
+	justify-content: center;
+	align-content: center;
+	width: 65vw;
+}
+
+#pfp {
+	overflow: hidden;
+	border-radius: 50%;
+	width: 26px;
+	margin-right: 10px;
+	justify-content: left;
+	cursor: pointer;
+}
+
+#nameTitle {
+	color: white;
+	text-align: left;
+	font-size: 17px;
+	font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+	margin-top: 2px;
+	cursor: pointer;
+}
+
+#slashStyle {
+	font-size: 14px;
+	position: relative;
+	top: -1px;
+}
+
+.titleContentContainer {
+	display: flex;
+}
+
+.subTitleContent {
+	position: relative;
+	font-size: 16px;
+	text-align: left;
+	margin-top: 5px;
+	margin-left: 10px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	cursor: pointer;
+	color: #a9b3bd;
+}
+
+.subTitleContentInline {
+	position: relative;
+	color: #adbab5;
+	font-size: 16px;
+	margin-left: 545px;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+	cursor: pointer;
+}
+
+.grid {
+	display: flex;
+}
+
+#titleContainer {
+	width: 100%;
+    display: flex;
+    padding-bottom: 15px;
+}
+
+#mainTitle {
+	color: #adbab5;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 9px;
+	font-size: 16px;
+	font-weight: 600;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+#mainSubTitle {
+	color: #adbab5;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+#mainSubTitleSub {
+	color: #adbab5;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+#mainSubTitleButton {
+	cursor: pointer;
+}
+
+#title {
+	color: white;
+	text-align: left;
+	font-size: 18px;
+	font-family: "Arial";
+}
+
+#row2 {
+	margin-top: 20px;
+}
+
+#column1 {
+	width: 50vw;
+	display: inline-block;
+	justify-content: center;
+	text-align: center;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+#column2 {
+	margin-top: 45px;
+	margin-left: 10px;
+	display: inline-block;
+}
+
+#quickRow1 {
+	width: 100%;
+	text-align: left;
+}
+
+#quickRow1 > div {
+	width: 100%;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+
+#statOne {
+	display: flex;
+	padding-bottom: 5px;
+}
+
+#statTwo {
+	display: flex;
+	padding-bottom: 5px;
+}
+
+#statThree {
+	display: flex;
+}
+
+#row1 > div {
+	display: inline-block;
+	width: 100%;
+	margin: auto;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: #4a5460;
+	border-radius: 6px;
+
+	text-align: left;
+	align-items: left;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+
+#row2 > div {
+	width: auto;
+	margin: auto;
+	border-style: solid;
+	border-width: 1.5px;
+	border-color: rgba(65, 132, 228, 0.4);
+	border-radius: 6px;
+
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	font-family: "Helvetica";
+	font-size: 15px;
+}
+
+#quickItemOne {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	border-width: 2px !important;
+	height: 27px;
+}
+
+#quickItemTwo {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-bottom: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	padding-bottom: 15px;
+}
+
+#quickItemThree {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+}
+
+#quickItemFour {
+	border-top: none !important;
+	border-left: none !important;
+	border-right: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	height: 27px;
+}
+
+#quickTitleContent {
+	font-size: 16px;
+	color: #768390;
+	font-weight: 600;
+	margin-left: 5px;
+}
+
+#quickSubTitleContent {
+	font-size: 15px;
+	color: #768390;
+	font-style: italic;
+	margin-left: 5px;
+}
+
+#quickSubTitleContentTwo {
+	font-size: 15px;
+	color: #768390;
+	margin-left: 5px;
+}
+
+#pkg {
+	width: 18px;
+}
+
+#time {
+	width: 18px;
+}
+
+#fileStat {
+	display: inline-block;
+	margin-left: 7px;
+}
+
+#fileStatDeps {
+	display: inline-block;
+	margin-left: 7px;
+}
+
+#itemOne {
+	background-color: #3e454e;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	border-bottom-right-radius: none !important;
+	border-bottom-left-radius: none !important;
+	padding-bottom: 10px;
+}
+
+#itemTwo {
+	border-top: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	padding-bottom: 7px;
+}
+
+#itemThree {
+	border-top: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	padding-bottom: 7px;
+}
+
+#itemFour {
+	border-top: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	border-bottom-right-radius: 0% !important;
+	border-bottom-left-radius: 0% !important;
+	padding-bottom: 7px;
+}
+
+#itemFive {
+	border-top: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	padding-bottom: 7px;
+}
+
+#itemFiveSub {
+	border-top: none !important;
+	border-top-right-radius: 0% !important;
+	border-top-left-radius: 0% !important;
+	height: auto;
+	padding-bottom: 30px;
+}
+
+#itemSix {
+	background-color: rgba(42, 79, 135, 0.7);
+	height: 40px;
+}
+
+.itemSixTitleContent {
+	font-size: 15px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: 400;
+	color: rgba(173, 186, 181, 1);
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.itemSixTitleContentMediaQuery {
+	display: none;
+	font-size: 15px;
+	text-align: left;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-weight: 400;
+	color: rgba(173, 186, 181, 1);
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+#buttonViewCode {
+	position: relative;
+	bottom: 22px;
+	height: 25px;
+	width: 105px;
+	float: right;
+	margin-right: 20px;
+	background-color: #428545;
+	border: 1px solid black;
+	border-color: #347d39;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+#buttonViewCodeText {
+	font-weight: 600;
+	font-size: 14px;
+	color: white;
+	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+/* Custom Scrollbar */
+
+/* width */
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: rgb(116, 116, 116);
+    border-radius: 12px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

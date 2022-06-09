@@ -1,1 +1,109 @@
-<h1>Welcome to my Blog!</h1>
+<!DOCTYPE html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+	<link rel="stylesheet" type="text/css" href="./styles/queries.css">
+
+	<title>Home Page</title>
+</head>
+
+<body>
+	<div id="mainContainer">
+
+		<div id="titleContainer">
+			<img id="pfp" src="./media/pfp.png" onclick="ToGit()"><span><div id="nameTitle" onclick="ToGit()">brendanprice2003</div></span>
+		</div>
+
+		<div class="grid">
+
+			<!-- column one -->
+			<div id="column1">
+
+				<!-- row one -->
+				<div id="row1">
+
+					<div id="itemOne">
+						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<span id="mainSubTitle">Assignment 2</span></div>
+					</div>
+					<div id="itemTwo" onclick="navUser(1)">
+						<div class="subTitleContent">
+							Server & Client Technologies
+						</div>
+					</div>
+
+					<div id="itemThree" onclick="navUser(2)">
+						<div class="titleContentContainer">
+							<div class="subTitleContent">
+								Dissimilarities of Website Creation Techniques
+							</div>
+						</div>
+					</div>
+					<div id="itemFour" onclick="navUser(3)">
+						<div class="subTitleContent">
+							Elucidation of Technologies Utilized During Development
+						</div>
+					</div>
+					<div id="itemFour" onclick="navUser(4)">
+						<div class="subTitleContent">
+							Justification of Website Technologies
+						</div>
+					</div>
+					<div id="itemFive" onclick="navUser(5)">
+						<div class="subTitleContent">
+							Website Documentation
+						</div>
+					</div>
+					
+				</div>
+			</div>
+
+			<!-- second column -->
+			<div id="column2">
+				
+				<!-- row one -->
+				<div id="quickRow1">
+					
+					<div id="quickItemOne">
+						<div id="quickTitleContent">
+							About
+						</div>
+					</div>
+					<div id="quickItemTwo">
+						<div id="quickSubTitleContent">
+							Synopsis For Website Tools
+						</div>
+					</div>
+					<div id="quickItemThree">
+						<div id="quickSubTitleContentTwo">
+							<div id="statOne">
+								<img id="pkg" src="./media/pkg.svg"><div id="fileStatDeps">Dependencies: 1</div>
+							</div>
+							<div id="statTwo">
+								<img id="time" src="./media/time.svg"><div id="fileStat">Start Date: 23/01/2022</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<!-- row two -->
+		<div id="row2">
+
+			<div id="itemSix">
+				<div class="itemSixTitleContent">
+					This website has been pushed to a GitHub repository. README.md is also available.
+				</div>
+				<div class="itemSixTitleContentMediaQuery">
+					This website has been pushed to a GitHub repository.
+				</div>
+				<button id="buttonViewCode" href="" onclick="ToGit()"><span id="buttonViewCodeText">View Code</span></button>
+			</div>
+		</div>
+
+	</div>
+</body>
+
+<script src="./scripts/script.js"></script>
+<script src="./scripts/queries.js"></script>
+</html>
