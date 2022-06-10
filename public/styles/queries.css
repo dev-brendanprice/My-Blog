@@ -2,6 +2,7 @@
 
 /* Queries from highest to smallest screen sizes, going from top to bottom of this script */
 
+/* Fix overlapping elements */
 @media only screen and (max-width: 1075px) {
     .itemSixTitleContent {
         display: none;
@@ -11,6 +12,7 @@
     }
 }
 
+/* Tablet kinda size */
 @media only screen and (max-width: 1020px) {
     .grid {
         display: initial;
@@ -20,13 +22,67 @@
     }
     #column2 {
         margin-top: 20px;
+        margin-left: 0px;
+    }
+    #column2Home {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    #quickSubContent {
+        width: 100%;
     }
 }
 
+/* Mobile */
 @media only screen and (max-width: 790px) {
-    /* Entirely seperate layout */
     #mainContainer {
-        width: 98vw;
-        margin-right: 10px;
+        width: 90vw;
+        padding-left: 16px;
+        padding-right: 16px;
     }
-}   
+    #mobileBackContainer {
+        display: block;
+    }
+    #column2 {
+        margin-top: -10px;
+        margin-bottom: 30px;
+        margin-left: 0px;
+    }
+    #column2Home {
+        margin-top: 20px;
+        margin-left: 0px;
+    }
+    #mainTitle {
+        padding-right: 7px;
+    }
+    #row1 > div {
+        border-style: unset;
+        border-width: unset;
+        border-color: unset;
+    }
+    #itemFive {
+        border-bottom-right-radius: 6px !important;
+        border-bottom-left-radius: 6px !important;
+    }
+    #itemOne {
+        border-bottom-right-radius: 6px !important;
+        border-bottom-left-radius: 6px !important;
+    }
+    #itemFiveSub {
+        border-style: unset;
+        border-width: unset;
+        border-color: unset;
+        border-radius: unset;
+        border-top: unset;
+        border-top-right-radius: unset;
+        border-top-left-radius: unset;
+    }
+    #subTitleContent {
+        margin-left: 0px;
+        width: 100%;
+    }
+    hr.half2 {
+        display: block;
+        margin-bottom: unset;
+    }
+}

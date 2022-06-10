@@ -1,0 +1,15 @@
+{
+    "name": "Beru's Blog",
+    "short_name": "Beru's Blog",
+    "start_url": "index.html",
+    "display": "fullscreen",
+    "background_color": "#22272e",
+    "theme_color": "#22272e",
+    "orientation": "portrait-primary",
+    "icons": [
+        {
+        "src": "./media/pfpRound.png",
+        "type": "image/png", "sizes": "72x72"
+        }
+    ]
+}

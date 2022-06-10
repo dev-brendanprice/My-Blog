@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="manifest" href="manifest.json">
 	<link rel="stylesheet" type="text/css" href="./styles/style.css">
 	<link rel="stylesheet" type="text/css" href="./styles/queries.css">
-
+	<link rel="icon" href="./media/pfpRound.png">
+	
 	<title>Home Page</title>
 </head>
 
@@ -19,45 +23,42 @@
 			<div id="column1">
 
 				<!-- row one -->
-				<div id="row1">
+				<div id="row1Home">
 
-					<div id="itemOne">
-						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<span id="mainSubTitle">Assignment 2</span></div>
+					<div id="itemOneHome">
+						<div id="mainTitle">Blog&nbsp<span id="slashStyle">//</span>&nbsp<span id="mainSubTitle">Projects</span></div>
 					</div>
 					<div id="itemTwo" onclick="navUser(1)">
 						<div class="subTitleContent">
-							Server & Client Technologies
+							Introduction & Creation of this Blog
 						</div>
 					</div>
 
 					<div id="itemThree" onclick="navUser(2)">
-						<div class="titleContentContainer">
-							<div class="subTitleContent">
-								Dissimilarities of Website Creation Techniques
-							</div>
+						<div class="subTitleContent">
+							Twitter Growth
 						</div>
 					</div>
 					<div id="itemFour" onclick="navUser(3)">
 						<div class="subTitleContent">
-							Elucidation of Technologies Utilized During Development
+							D2 Synergy & Bungie API
 						</div>
 					</div>
 					<div id="itemFour" onclick="navUser(4)">
 						<div class="subTitleContent">
-							Justification of Website Technologies
+							Business Ventures
 						</div>
 					</div>
 					<div id="itemFive" onclick="navUser(5)">
 						<div class="subTitleContent">
-							Website Documentation
+							Software Engineering (In-Depth) Portfolio
 						</div>
 					</div>
-					
 				</div>
 			</div>
 
 			<!-- second column -->
-			<div id="column2">
+			<div id="column2Home">
 				
 				<!-- row one -->
 				<div id="quickRow1">
@@ -69,16 +70,20 @@
 					</div>
 					<div id="quickItemTwo">
 						<div id="quickSubTitleContent">
-							Synopsis For Website Tools
+							<div id="quickSubTitleContentBold">In-Depth Portfolio (Blog) Index Page</div>
+							<div id="quickSubContent">I curate the best projects from my collection and, strenuously, write about them here.</div>
 						</div>
 					</div>
 					<div id="quickItemThree">
 						<div id="quickSubTitleContentTwo">
+							<div id="statOverallTitle">Overall Statistics [?]</div>
 							<div id="statOne">
-								<img id="pkg" src="./media/pkg.svg"><div id="fileStatDeps">Dependencies: 1</div>
+								<img id="statIcon" src="./media/likeIcon.webp">
+								<div class="statText" id="statLikes">0 Interests</div>
 							</div>
 							<div id="statTwo">
-								<img id="time" src="./media/time.svg"><div id="fileStat">Start Date: 23/01/2022</div>
+								<img id="statIcon" src="./media/eyeIcon.webp">
+								<div class="statText" id="statWatching">0 Watchers</div>
 							</div>
 						</div>
 					</div>
@@ -95,7 +100,7 @@
 					This website has been pushed to a GitHub repository. README.md is also available.
 				</div>
 				<div class="itemSixTitleContentMediaQuery">
-					This website has been pushed to a GitHub repository.
+					Available on GitHub.
 				</div>
 				<button id="buttonViewCode" href="" onclick="ToGit()"><span id="buttonViewCodeText">View Code</span></button>
 			</div>
@@ -105,5 +110,4 @@
 </body>
 
 <script src="./scripts/script.js"></script>
-<script src="./scripts/queries.js"></script>
 </html>

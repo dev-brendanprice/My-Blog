@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="manifest" href="../manifest.json">
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	<link rel="stylesheet" type="text/css" href="../styles/subOne.css">
 	<link rel="stylesheet" type="text/css" href="../styles/queries.css">
+	<link rel="icon" href="../media/pfpRound.png">
 
-	<title>Sub1</title>
+	<title>Creation of This Blog</title>
 </head>
 
 <body>
 	<div id="mainContainer">
+
+		<div id="mobileBackContainer" onclick="takeUserBack();">
+			<img id="mobileBackImg" src="../media/backArrow.png">
+			<div id="mobileBackText">
+				Go Back
+			</div>
+		</div>
 
 		<div id="titleContainer">
 			<img id="pfp" src="../media/pfp.png" onclick="ToGit()"><span><div id="nameTitle" onclick="ToGit()">brendanprice2003</div></span>
@@ -23,53 +34,21 @@
 				<div id="row1">
 
 					<div id="itemOne">
-						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Assignment 2</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">Server & Client Technologies</span></div>
+						<div id="mainTitle">Blog&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Projects</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">Introduction & Creation of this Blog</span></div>
 					</div>
 					<div id="itemFiveSub">
 						<div id="subTitleContent">
 							<h1>
-								Server and Client Technologies
+								Introduction & Creation of this Blog
 							</h1>
 							<hr class="half">
 							<h3>
-								Client Technologies
+								Header Goes Here
 							</h3>
 							<p>
-								Front end technologies, or "client technologies", are tools and techniques that reside on the machine that are in control of the end-user. For example, right now you are using a computer to view this website, and as the end-user you are using the filsystem of the operating system to view this file locally instead of over internet.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis tempus ante ut elementum. Quisque sit amet mi vestibulum, varius eros ut, bibendum ipsum. Nulla ac nunc sed orci pharetra congue ac non mauris. Quisque rhoncus sem et nulla tincidunt tincidunt. Donec ut erat mattis, interdum leo et, consectetur elit. Ut ligula metus, ullamcorper vitae ante vitae, tincidunt ornare justo. Donec accumsan mi nec ligula suscipit bibendum. Nunc semper nec erat ut congue. Duis iaculis aliquam lacus, ac tempor nisi rutrum tempor. Suspendisse consequat pretium feugiat. Suspendisse tristique urna et elit fermentum, a laoreet turpis congue. Sed velit nisi, accumsan eget elit eu, lacinia ultricies sem. Ut id posuere diam.
 							</p>
-							<p>
-								In regards to utilizing these methods during web development, We can go down to the fundamentals which are defined as Hypertext Markup Languages, JavaScript and Cascading Style Sheets. These technologies, namely JavaScript as the outlining progrmaming language, are what a web developer will utilize to formalize a framework, build and improve upon to create the end product; a website.
-							</p>
-							<em>
-								Other front end technologies could include, but are not limited to; Frameworks that wrap the above described languages, Integrated Development Environments, Chrome DevTools (do Ctrl+Shift+i to view this websites' DevTools).
-							</em>
-							<h4>
-								Relation to Presentation Layer of the OSI Model
-							</h4>
-							<p>
-								All the above statements can be related to the presentation layer of the OSI model; Formalized to represent the telecommunications of a computer system with regards to its underlying features and functions. Said presentation layer is utlizied to parse the syntax that the developer is typing into the IDE and turning it into an output in the browser that the user can then view. This process works vice-versa.
-							</p>
-							<h3>
-								Server Technologies
-							</h3>
-							<p>
-								Back end technologies or "server technologoies", are tools and techniques that reside on the machine that is actively hosting the resource that you (the end-user) is requesting. If you are viewing this webpage, there are no active back end technologies because the files are static and locally configured, so there is no need for a server to host these files. For example, lets go to www.youtube.com, this website has countless back end technologies that are hosting the website files and other resources such as videos. These videos will only be sent back to the user based on a request for video resources.
-							</p>
-							<p>
-								During development of websites, developers may make use of push and pull technologies that push and pull versions from a remote location, so that multiple developers can work on the same project simultaneously. An example of this push and pull technology could be GitHub (which is what this website is based off). Back-end technologies come under this category as they are technologies that do no exist on the immediate local machine that the user is actively making use of. 
-							</p>
-							<p>
-								In more simple terms, back-end technologies would also include web servers, which are machines that host website files that can be viewed by end-users via a browser and an internet connection. These web servers have other underlying technologies that it requires to operate such as domain name servers etc.
-							</p>
-							<h4>
-								Relation to Application and Data Layer
-							</h4>
-							<p>
-								The application layer characterizes protocols that are utilized when using server technologies. Protocols allow users to interface with machines that are connected to a network, or the internet, edit data, add new data or remove data. This is important as it allows web developer to make changes to files to a remote web server that is hosting the website that they are developing. These protocols are, but not limited to: File Transfer Protocol (FTP), Secure File Transfer Protocol (SFTP), Simple Mail Transfer Protocol (SMTP), HyperText Transfer Protocol (HTTP) and HyperText Transfer Protocol Secure (HTTPS).
-							</p>
-							<p>
-								The data layer characterizes a platform at which other processes are able to interface with and allows for an easy way to request and receive data. An example of this could be IP addresses and how computers will utilize this addresses to communicate with each other across a network or over the internet. Web developers would require their PC to have an IP address assigned to their machine to enable them to communicate with the web server where their website files reside.
-							</p>
+							<hr class="half2">
 						</div>
 					</div>
 				</div>
@@ -93,14 +72,26 @@
 					</div>
 					<div id="quickItemThree">
 						<div id="quickSubTitleContentTwo">
+							<div id="statOverallTitle">Page Statistics -</div>
 							<div id="statOne">
-								<img id="pkg" src="../media/loc.png"><div id="fileStatWC">Word Count: 0</div>
+								<img id="statIcon" src="../media/likeIcon.webp">
+								<div class="statText" id="statLikes">0 Interests</div>
 							</div>
 							<div id="statTwo">
-								<img id="pkg" src="../media/pkg.svg"><div id="fileStatDeps">Dependencies: 5</div>
+								<img id="statIcon" src="../media/eyeIcon.webp">
+								<div class="statText" id="statWatching">0 Watchers</div>
 							</div>
 							<div id="statThree">
-								<img id="time" src="../media/time.svg"><div id="fileStat">Start Date: 23/01/2022</div>
+								<img id="statIcon" src="../media/publishIcon.webp">
+								<div class="statText" id="statWordCount">Word Count: 0</div>
+							</div>
+							<div id="statFour">
+								<img id="statIcon" src="../media/timeIntervalIcon.webp">
+								<div class="statText">Changed: DD/MM/YYYY</div>
+							</div>
+							<div id="statFive">
+								<img id="statIcon" src="../media/timeIcon.webp">
+								<div class="statText">Published: 23/01/2022</div>
 							</div>
 						</div>
 					</div>
@@ -116,7 +107,7 @@
 					This website has been pushed to a GitHub repository. README.md is also available.
 				</div>
 				<div class="itemSixTitleContentMediaQuery">
-					This website has been pushed to a GitHub repository.
+					Available on GitHub.
 				</div>
 				<button id="buttonViewCode" href="" onclick="ToGit()"><span id="buttonViewCodeText">View Code</span></button>
 			</div>
@@ -125,5 +116,4 @@
 </body>
 
 <script src="../scripts/script.js"></script>
-<script src="../scripts/queries.js"></script>
 </html>

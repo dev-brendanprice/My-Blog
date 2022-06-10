@@ -1,14 +1,25 @@
 <!DOCTYPE html>
 <head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="manifest" href="../manifest.json">
 	<link rel="stylesheet" type="text/css" href="../styles/style.css">
 	<link rel="stylesheet" type="text/css" href="../styles/subThree.css">
 	<link rel="stylesheet" type="text/css" href="../styles/queries.css">
+	<link rel="icon" href="../media/pfpRound.png">
 
-	<title>Sub3</title>
+	<title>D2 Synergy</title>
 </head>
 
 <body>
 	<div id="mainContainer">
+
+		<div id="mobileBackContainer" onclick="takeUserBack();">
+			<img id="mobileBackImg" src="../media/backArrow.png">
+			<div id="mobileBackText">
+				Go Back
+			</div>
+		</div>
 
 		<div id="titleContainer">
 			<img id="pfp" src="../media/pfp.png" onclick="ToGit()"><span><div id="nameTitle" onclick="ToGit()">brendanprice2003</div></span>
@@ -23,55 +34,21 @@
 				<div id="row1">
 
 					<div id="itemOne">
-						<div id="mainTitle">Web Development&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Assignment 2</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">Technologies Utilized During Development</span></div>
+						<div id="mainTitle">Blog&nbsp<span id="slashStyle">//</span>&nbsp<a id="mainSubTitleButton" onclick="takeUserBack();"><span id="mainSubTitle">Projects</span></a>&nbsp>&nbsp<span id="mainSubTitleSub">D2 Synergy & Bungie API</span></div>
 					</div>
 					<div id="itemFiveSub">
 						<div id="subTitleContent">
 							<h1>
-								Technologies Utilized During Development
+								D2 Synergy & Bungie API
 							</h1>
 							<hr class="half">
 							<h3>
-								Outlining Technologies
+								Header Goes Here
 							</h3>
-							<em>
-								Below is a list of technologies that may be used during web development.
-							</em>
-							<ul>
-								<li>
-									HTML, CSS
-								</li>
-								<li>
-									JavaScript
-								</li>
-								<li>
-									PHP
-								</li>
-								<li>
-									MySQL
-								</li>
-								<li>
-									Scss/Sass
-								</li>
-							</ul>
-							<h3>
-								Dissimilarities of Specific Techniques
-							</h3>
-							<em>
-								In the previous section, I had outlined the dissimilarities between online website creation tools and custom building websites, in this section I will explain the differences between the specific technlogoie and techniques that are used in both instances of website creation. 
-							</em>
 							<p>
-								Languages such as HTML, CSS are not considered to be languages, they are instead considered to be a markdown language. This means that they solely based on providing a framework for a runtime to make use of. In this case that runtime would be JavaScript (in most cases); JavaScript provides websites with most, if not all, of the user interaction, user experience, and behind the scenes functions. The key difference between HTML/CSS and JavaScript is that HTML/CSS is a markdown language which just provides a framework for website objects, whereas JavaScript is a programming language that is capapable of logical calculations and interfaces with the browser.
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam facilisis tempus ante ut elementum. Quisque sit amet mi vestibulum, varius eros ut, bibendum ipsum. Nulla ac nunc sed orci pharetra congue ac non mauris. Quisque rhoncus sem et nulla tincidunt tincidunt. Donec ut erat mattis, interdum leo et, consectetur elit. Ut ligula metus, ullamcorper vitae ante vitae, tincidunt ornare justo. Donec accumsan mi nec ligula suscipit bibendum. Nunc semper nec erat ut congue. Duis iaculis aliquam lacus, ac tempor nisi rutrum tempor. Suspendisse consequat pretium feugiat. Suspendisse tristique urna et elit fermentum, a laoreet turpis congue. Sed velit nisi, accumsan eget elit eu, lacinia ultricies sem. Ut id posuere diam.
 							</p>
-							<p>
-								PHP is another programming language, like JavaScript, it can execute logical calculations and interface with the browser excepit it is capable of doing server side processing too. PHP accepts the use of HTML/CSS and JavaScript and many other common web development solutions all within the syntax. A web server that runs PHP will render the website on the server, passing any required data to the website, then sending it to the client. This is vastly different to the conventional HTML/CSS and JavaScript setup because in that scenario the client is just requesting the specified files and "that's that". However, PHP will render the website BEFORE sending to the client which allows it to append data, adding another platform at which the client is able to interface with.
-							</p>
-							<p>
-								MySQL is a server language, but more modern solutions allow for the use of MySql on the client (in the browser). MySQL is a language that revolves around interfacing with a specified database to request and received data based on a defined set of requirements. MySQL is specialised and excels in this area compared to other languages when interfacing with databases. Other languages may be able to interface with databases, yes, but MySQL provides a solution to the lack of support and/or quality in those languages. MySQL is only used for interfacing with databases and therefore is not able to do things like JavaScript, such as changing the <span id="code">innerHTML</span> property of a &lt;p&gt; tag.
-							</p>
-							<p>
-								Scss or Sass is a CSS pre-processor; They take the fundamentals of CSS and is able to add more working parts to it. Scss or Sass is able to append enough functionalities that CSS can actually be considered a programming language in some cases. Using functions such as if statements and booleans to characterize properties for object styling. CSS is not currently able to make explicit comparisons using if statements or even use booleans to express values on properties. That is the key difference between CSS and Scss/Sass.
-							</p>
+							<hr class="half2">
 						</div>
 					</div>
 				</div>
@@ -95,14 +72,26 @@
 					</div>
 					<div id="quickItemThree">
 						<div id="quickSubTitleContentTwo">
+							<div id="statOverallTitle">Page Statistics -</div>
 							<div id="statOne">
-								<img id="pkg" src="../media/loc.png"><div id="fileStatWC">Word Count: 0</div>
+								<img id="statIcon" src="../media/likeIcon.webp">
+								<div class="statText" id="statLikes">0 Interests</div>
 							</div>
 							<div id="statTwo">
-								<img id="pkg" src="../media/pkg.svg"><div id="fileStatDeps">Dependencies: 5</div>
+								<img id="statIcon" src="../media/eyeIcon.webp">
+								<div class="statText" id="statWatching">0 Watchers</div>
 							</div>
 							<div id="statThree">
-								<img id="time" src="../media/time.svg"><div id="fileStat">Start Date: 23/01/2022</div>
+								<img id="statIcon" src="../media/publishIcon.webp">
+								<div class="statText" id="statWordCount">Word Count: 0</div>
+							</div>
+							<div id="statFour">
+								<img id="statIcon" src="../media/timeIntervalIcon.webp">
+								<div class="statText">Changed: DD/MM/YYYY</div>
+							</div>
+							<div id="statFive">
+								<img id="statIcon" src="../media/timeIcon.webp">
+								<div class="statText">Published: 23/01/2022</div>
 							</div>
 						</div>
 					</div>
@@ -118,7 +107,7 @@
 					This website has been pushed to a GitHub repository. README.md is also available.
 				</div>
 				<div class="itemSixTitleContentMediaQuery">
-					This website has been pushed to a GitHub repository.
+					Available on GitHub.
 				</div>
 				<button id="buttonViewCode" href="" onclick="ToGit()"><span id="buttonViewCodeText">View Code</span></button>
 			</div>
@@ -127,5 +116,4 @@
 </body>
 
 <script src="../scripts/script.js"></script>
-<script src="../scripts/queries.js"></script>
 </html>

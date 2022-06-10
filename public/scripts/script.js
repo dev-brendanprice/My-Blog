@@ -1,24 +1,17 @@
-var log = console.log.bind(console);
+console.log('%cWelcome to the conso.. Wait, what are you doing here?', 'font-weight: bold;font-size: 13px;color: white;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";');
+console.log('%cPlease report any errors to @beru2003 on Twitter.', 'font-style: italic;font-size: 13px;color: white;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";');
 
-// Listen for DOM loaded event
-document.addEventListener('DOMContentLoaded', () => {
-	getWordCount(document.getElementById('subTitleContent'), document.getElementById('fileStatWC'));
-});
+// var log = console.log.bind(console);
 
 // Get word count of child text of an element
-var getWordCount = (bodyElement, countElement) => {
+var getWordCount = () => {
 
 	// Get word count of div that contains assignment content
+	let bodyElement = document.getElementById('subTitleContent');
 	if (bodyElement) {
 		wordsArr = bodyElement.innerHTML.trim().split(' ');
-		countElement.innerHTML = `Word Count: ${wordsArr.length-1}`;
+		document.getElementById('statWordCount').innerHTML = `Word Count: ${wordsArr.length-1}`;
 	};
-	getDepCount(document.getElementById('fileStatDeps'));
-};
-
-// Get dependencies amount
-var getDepCount = (countElement) => {
-	countElement.innerHTML = `Dependencies: ${(5*2)+1}`;
 };
 
 // Navigate user to passed page
@@ -28,10 +21,16 @@ var navUser = (index) => {
 
 // Navigate user back to home page page
 var takeUserBack = () => {
-	window.location.href = `./views/index.html`;
+	window.location.href = `../index.html`;
+	window.navigator.vibrate(1000);
 };
 
 // Navigate user to GitHub respective repository
 var ToGit = () => {
-	window.location.href = "https://github.com/brendanprice2003/WebDev_Mockup";
+	window.location.href = "https://github.com/brendanprice2003/My-Blog";
 };
+
+// Main entry point
+document.addEventListener('DOMContentLoaded', () => {
+	getWordCount();
+});
