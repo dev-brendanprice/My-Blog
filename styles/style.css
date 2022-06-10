@@ -9,10 +9,6 @@ body, html {
 	-moz-user-select: none; /* Firefox */
 	-ms-user-select: none; /* IE10+/Edge */
 	user-select: none; /* Standard */
-
-	-webkit-font-smoothing: subpixel-antialiased; /* Safari */
-	-moz-osx-font-smoothing: grayscale; /* Firefox */
-	font-smooth: always; /* Standard */
 }
 
 hr.half {
