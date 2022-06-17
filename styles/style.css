@@ -48,6 +48,7 @@ h2 {
 	display: block;
     margin-block-start: 0.9em;
     margin-block-end: 0.9em;
+	margin-bottom: -8px;
     font-weight: bold;
 	color: #7e8891;
 }
@@ -57,7 +58,9 @@ h3 {
 	display: block;
     margin-block-start: 0.9em;
     margin-block-end: 0.9em;
+	margin-bottom: -8px;
     font-weight: bold;
+	font-size: 15px;
 	color: #7e8891;
 }
 
@@ -111,6 +114,33 @@ em {
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;
+}
+
+#queryIcon {
+	width: 15px;
+	height: 15px;
+	margin-top: 1px;
+	margin-left: 8px;
+	filter: invert(1) brightness(0.4) contrast(1);
+	cursor: pointer;
+}
+
+#queryHoverContainer {
+	position: absolute;
+	display: none;
+	margin-left: 145px;
+	padding: 5px;
+	width: 160px;
+	border-radius: 3px;
+	border: 1px solid #4a5460;
+	background-color: #3e454e;
+	color: rgb(161, 161, 161);
+	font-size: 11px;
+}
+
+#queryDivHyperlink {
+	text-decoration: underline;
+	cursor: pointer;
 }
 
 #code {
@@ -190,6 +220,11 @@ em {
 	font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
 	cursor: pointer;
 	color: #a9b3bd;
+}
+
+/* Dangerous!! */
+img {
+	width: 100%;
 }
 
 .subTitleContentInline {
@@ -284,6 +319,15 @@ em {
 	font-size: 15px;
 }
 
+#quickSubTitleContainer {
+	display: flex;
+}
+
+#queryIcon:hover {
+	filter: invert(1) brightness(1);
+	transition: filter 0.1s ease-in-out;
+}
+
 #statOne {
 	display: flex;
 	padding-bottom: 5px;
@@ -319,49 +363,16 @@ em {
 #statThree {
 	display: flex;
 	padding-bottom: 5px;
-	cursor: pointer;
-}
-
-#statThree:hover > div {
-	color: rgb(200, 200, 200);
-	transition: color 0.1s ease-in-out;
-}
-
-#statThree:hover > img {
-	filter: invert(1) brightness(1);
-	transition: filter 0.1s ease-in-out;
 }
 
 #statFour {
 	display: flex;
 	padding-bottom: 5px;
-	cursor: pointer;
-}
-
-#statFour:hover > div {
-	color: rgb(200, 200, 200);
-	transition: color 0.1s ease-in-out;
-}
-
-#statFour:hover > img {
-	filter: invert(1) brightness(1);
-	transition: filter 0.1s ease-in-out;
 }
 
 #statFive {
 	display: flex;
 	padding-bottom: 5px;
-	cursor: pointer;
-}
-
-#statFive:hover > div {
-	color: rgb(200, 200, 200);
-	transition: color 0.1s ease-in-out;
-}
-
-#statFive:hover > img {
-	filter: invert(1) brightness(1);
-	transition: filter 0.1s ease-in-out;
 }
 
 #row1 > div {

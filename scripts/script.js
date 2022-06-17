@@ -34,3 +34,16 @@ var ToGit = () => {
 document.addEventListener('DOMContentLoaded', () => {
 	getWordCount();
 });
+
+try {
+	document.getElementById('queryIcon').addEventListener('mousemove', () => {
+		document.getElementById('queryHoverContainer').style.display= 'block';
+	});
+	
+	document.getElementById('queryIcon').addEventListener('mouseleave', () => {
+		document.getElementById('queryHoverContainer').style.display = 'none';
+	});
+}
+catch (e) {
+	// ignore
+}

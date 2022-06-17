@@ -2,6 +2,18 @@
 
 /* Queries from highest to smallest screen sizes, going from top to bottom of this script */
 
+/* Fix moving icons */
+@media only screen and (max-width: 1394px) {
+    .intervalIcon {
+        margin-top: 7px;
+    }
+}
+@media only screen and (max-width: 1035px) {
+    .timeIcon {
+        margin-top: 7px;
+    }
+}
+
 /* Fix overlapping elements */
 @media only screen and (max-width: 1075px) {
     .itemSixTitleContent {
