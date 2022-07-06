@@ -9,7 +9,7 @@
     "icons": [
         {
         "src": "./media/pfpRound.png",
-        "type": "image/png", "sizes": "72x72"
+        "type": "image/png", "sizes": "900x900"
         }
     ]
 }
