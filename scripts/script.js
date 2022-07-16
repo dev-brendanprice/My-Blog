@@ -1,7 +1,7 @@
 console.log('%cWelcome to the conso.. Wait, what are you doing here?', 'font-weight: bold;font-size: 13px;color: white;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";');
 console.log('%cPlease report any errors to @beru2003 on Twitter.', 'font-style: italic;font-size: 13px;color: white;font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";');
 
-// var log = console.log.bind(console);
+var log = console.log.bind(console);
 
 // Get word count of child text of an element
 var getWordCount = () => {

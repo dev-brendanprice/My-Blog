@@ -227,6 +227,10 @@ img {
 	width: 100%;
 }
 
+#fileStructure {
+	width: 40%;
+}
+
 .subTitleContentInline {
 	position: relative;
 	color: #adbab5;
