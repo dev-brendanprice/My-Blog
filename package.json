@@ -1,0 +1,25 @@
+{
+  "name": "my-blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx snowpack dev",
+    "build": "npx snowpack build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brendanprice2003/My-Blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brendanprice2003/My-Blog/issues"
+  },
+  "homepage": "https://github.com/brendanprice2003/My-Blog#readme",
+  "description": "",
+  "dependencies": {
+    "snowpack": "^3.8.8"
+  }
+}
